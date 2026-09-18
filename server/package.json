@@ -1,0 +1,22 @@
+{
+  "name": "mazi-server",
+  "version": "1.0.0",
+  "description": "Backend API for Mazi Specialty Coffee",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.4.0",
+    "zod": "^3.22.4"
+  }
+}
