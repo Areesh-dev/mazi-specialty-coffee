@@ -100,7 +100,7 @@ const Navbar = () => {
               {link.name}
             </NavLink>
           ))}
-          <Link to="/admin/login" className="mt-8 text-sm uppercase tracking-widest text-[#C27A5E] hover:text-white transition-colors">Admin Login</Link>
+
         </nav>
       </div>
 
